@@ -30,8 +30,6 @@ This type of analysis mirrors real-world use cases in:
 Sample aggregated results (sorted by revenue per order):
 
 | Segment | Total Revenue | Total Orders | Revenue per Order |
-|--------|--------------|-------------|-------------------|
-   segment  total_revenue  total_orders  revenue_per_order
 3  Tourist      140136.18          1019             137.52
 5      VIP      139547.50          1019             136.95
 4  Unknown      135985.40           997             136.39
