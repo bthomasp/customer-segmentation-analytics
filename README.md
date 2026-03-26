@@ -3,8 +3,7 @@
 ## Overview
 This project analyzes transactional ticket data to identify which customer segments generate the highest revenue per order.
 
-The goal is to simulate a common analytics use case in media and advertising:
-understanding which audiences drive the most value.
+The analysis reflects a common use case in media, advertising, and consumer analytics: understanding which audiences drive the most value to inform targeting, pricing, and strategic decision-making.
 
 ## Approach
 - Extracted and prepared ticket-level transaction data
@@ -26,3 +25,13 @@ This type of analysis mirrors real-world use cases in:
 - advertising performance measurement
 - customer segmentation
 - revenue optimization
+
+## Example Output
+Sample aggregated results (sorted by revenue per order):
+
+| Segment | Total Revenue | Total Orders | Revenue per Order |
+|--------|--------------|-------------|-------------------|
+| Tourist | ... | ... | ... |
+| VIP | ... | ... | ... |
+
+(Note: values based on sample dataset)
