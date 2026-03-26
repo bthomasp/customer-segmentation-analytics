@@ -28,13 +28,13 @@ This type of analysis mirrors real-world use cases in:
 
 ## Example Output
 Sample aggregated results (sorted by revenue per order):
-
 | Segment | Total Revenue | Total Orders | Revenue per Order |
-3  Tourist      140136.18          1019             137.52
-5      VIP      139547.50          1019             136.95
-4  Unknown      135985.40           997             136.39
-0    Group      128233.64           952             134.70
-2  Student      129816.97           971             133.69
-1    Local      138935.73          1042             133.34
+|--------|--------------|-------------|-------------------|
+| Tourist | 140136.18 | 1019 | 137.52 |
+| VIP | 139547.50 | 1019 | 136.95 |
+| Unknown | 135985.40 | 997 | 136.39 |
+| Group | 128233.64 | 952 | 134.70 |
+| Student | 129816.97 | 971 | 133.69 |
+| Local | 138935.73  | 1042 | 133.34 |
 
 (Note: values based on sample dataset)
