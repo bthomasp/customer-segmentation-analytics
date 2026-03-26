@@ -5,8 +5,10 @@ This project analyzes transactional ticket data to identify which customer segme
 
 The analysis reflects a common use case in media, advertising, and consumer analytics: understanding which audiences drive the most value to inform targeting, pricing, and strategic decision-making.
 
+Analysis performed on a sample of transaction-level data (8,000 records) to simulate real-world analytical workflows.
+
 ## Approach
-- Extracted and prepared ticket-level transaction data
+- Extracted and prepared transaction-level ticket data
 - Aggregated to order-level metrics
 - Joined with customer segmentation data
 - Calculated revenue per order by segment
@@ -18,7 +20,7 @@ The analysis reflects a common use case in media, advertising, and consumer anal
 - SQL-style aggregations
 
 ## Key Insight
-Segments such as "Tourist" and "VIP" showed higher revenue per order, indicating potential opportunities for targeted marketing and pricing strategies.
+Segments such as "Tourist" and "VIP" generate the highest revenue per order, indicating strong opportunities for targeted marketing, premium pricing strategies, and audience prioritization.
 
 ## Why this matters
 This type of analysis mirrors real-world use cases in:
@@ -38,3 +40,11 @@ Sample aggregated results (sorted by revenue per order):
 | Local | 138935.73  | 1042 | 133.34 |
 
 (Note: values based on sample dataset)
+
+## Data Model
+The analysis operates on two core datasets:
+- Ticket events (transaction-level sales data)
+- Customer dimension (segmentation attributes)
+
+These are joined on customer_id to enable segment-level performance analysis.
+
