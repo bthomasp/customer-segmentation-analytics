@@ -39,7 +39,7 @@ Sample aggregated results (sorted by revenue per order):
 | Student | 129816.97 | 971 | 133.69 |
 | Local | 138935.73  | 1042 | 133.34 |
 
-(Note: values based on sample dataset)
+(Note: analysis performed on a sampled subset (~8K records) of a larger transactional dataset to simulate real-world analytical workflows)
 
 ## Data Model
 The analysis operates on two core datasets:
